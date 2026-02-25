@@ -14,7 +14,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-st.title("🌿 五行能量状态测评")
+st.title("🌿 五行能量状态测评🌿")
 st.markdown("#### 填写说明：根据近3个月的身体状态，选择对应的症状程度")
 st.divider()
 
@@ -149,4 +149,5 @@ if st.button("🔍 提交测评 · 查看我的能量结果", type="primary", us
     res = calculate_result(answers)
     st.markdown("---")
     with st.container(border=True):
+
         st.markdown(res)
